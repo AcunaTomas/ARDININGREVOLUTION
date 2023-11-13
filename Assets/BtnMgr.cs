@@ -21,4 +21,5 @@ public class BtnMgr : MonoBehaviour
     {
         SceneManager.LoadScene("BlankAR");
     }
+
 }

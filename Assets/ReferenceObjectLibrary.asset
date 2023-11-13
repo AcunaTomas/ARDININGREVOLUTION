@@ -14,4 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_GuidLow: 4978201663687371688
   m_GuidHigh: 8178195237500866745
-  m_ReferenceObjects: []
+  m_ReferenceObjects:
+  - m_GuidLow: 5509661635350784648
+    m_GuidHigh: 16473952062721210001
+    m_Name: 
+    m_Entries:
+    - {fileID: 11400000, guid: ebde855a851c64c61b7fde816d240abf, type: 3}
