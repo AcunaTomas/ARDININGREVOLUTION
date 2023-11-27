@@ -21,5 +21,13 @@ public class ListItem : MonoBehaviour
         _sexto.text = _ARObj.name;
     }
 
-
+    public void SwitchGlish()
+    {
+        for (int i = 0; i < _ARObj.transform.parent.childCount; i++)
+        {
+            _ARObj.transform.parent.GetChild(i).gameObject.SetActive(false);
+        }
+        _ARObj.SetActive(true);
+ 
+    }
 }
