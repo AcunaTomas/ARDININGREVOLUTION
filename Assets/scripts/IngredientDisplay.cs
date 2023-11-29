@@ -10,16 +10,13 @@ public class IngredientDisplay : MonoBehaviour
     // Start is called before the first frame update
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 
     public void SetText(GameObject Ingredient)
     {
         Ing = Ingredient;
         transform.GetChild(0).GetChild(0).GetComponent<TextMeshProUGUI>().text = Ing.name;
-        transform.GetChild(0).GetChild(1).GetComponent<TextMeshProUGUI>().text = Ing.name;
+        transform.GetChild(0).GetChild(1).GetComponent<TextMeshProUGUI>().text = Ing.GetComponent<TextMeshPro>().text;
         transform.GetChild(0).gameObject.SetActive(!transform.GetChild(0).gameObject.activeSelf);
 
     }

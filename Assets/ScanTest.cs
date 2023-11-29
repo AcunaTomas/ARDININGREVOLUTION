@@ -44,8 +44,11 @@ public class ScanTest : MonoBehaviour
                     }
                     else
                     {
+                        Destroy(GameObject.Find("Canvas"));
                         SpawnPrefab(m_hits[0].pose.position);
+                        
                     }
+                    
                 }
             }
             else if (Input.GetTouch(0).phase == TouchPhase.Began)
@@ -54,7 +57,6 @@ public class ScanTest : MonoBehaviour
                 {
                     if (hit.collider.gameObject.tag == "Ingredient")
                     {
-                        GameObject.Find("Yogurt sample").GetComponent<TextMeshProUGUI>().text = hit.collider.gameObject.name;
                         GameObject.Find("Ingredient Interface").GetComponent<IngredientDisplay>().SetText(hit.collider.gameObject);
                         print("Got Here");
                     }
@@ -67,25 +69,31 @@ public class ScanTest : MonoBehaviour
 
         }
 
-        if (Input.GetTouch(0).phase == TouchPhase.Moved && Input.GetTouch(1).phase == TouchPhase.Moved)
+        if (Input.GetTouch(0).phase == TouchPhase.Moved )
         {
-            if (Input.GetTouch(0).deltaPosition.y > 0 && Input.GetTouch(1).deltaPosition.y < 0)
+            if(Input.GetTouch(1).phase == TouchPhase.Moved)
             {
-                instanceofThingtoSpawn.transform.localScale += new Vector3(0.01f,0.01f,0.01f);
-                if ( instanceofThingtoSpawn.transform.localScale.x >= 3)
+                if (Input.GetTouch(0).deltaPosition.y > 0 && Input.GetTouch(1).deltaPosition.y < 0)
                 {
-                    instanceofThingtoSpawn.transform.localScale = new Vector3(2f,2f,2f); 
-                } 
+                    instanceofThingtoSpawn.transform.localScale += new Vector3(0.01f,0.01f,0.01f);
+                    if ( instanceofThingtoSpawn.transform.localScale.x >= 3)
+                    {
+                        instanceofThingtoSpawn.transform.localScale = new Vector3(2f,2f,2f); 
+                    } 
+                }
+                else
+                {
+                    instanceofThingtoSpawn.transform.localScale -= new Vector3(0.01f,0.01f,0.01f); 
+                    if (instanceofThingtoSpawn.transform.localScale.x <= 0.1)
+                    {
+                        instanceofThingtoSpawn.transform.localScale = new Vector3(0.01f,0.01f,0.01f);  
+                    } 
+                }
             }
-            else
-            {
-                instanceofThingtoSpawn.transform.localScale -= new Vector3(0.01f,0.01f,0.01f); 
-                if (instanceofThingtoSpawn.transform.localScale.x <= 0.1)
-                {
-                    instanceofThingtoSpawn.transform.localScale = new Vector3(0.01f,0.01f,0.01f);  
-                } 
-            } 
+
+            
         }
+
 
  
 

@@ -19,4 +19,10 @@ public class ButtonsCOntroller : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
+    public void PleaseRotate()
+    {
+        menu.transform.Rotate(0,1,0, Space.Self);
+
+    }
+
 }
