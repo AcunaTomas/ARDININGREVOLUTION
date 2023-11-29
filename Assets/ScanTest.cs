@@ -55,6 +55,8 @@ public class ScanTest : MonoBehaviour
                     if (hit.collider.gameObject.tag == "Ingredient")
                     {
                         GameObject.Find("Yogurt sample").GetComponent<TextMeshProUGUI>().text = hit.collider.gameObject.name;
+                        GameObject.Find("Ingredient Interface").GetComponent<IngredientDisplay>().SetText(hit.collider.gameObject);
+                        print("Got Here");
                     }
                     else
                     {
