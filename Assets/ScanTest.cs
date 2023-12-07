@@ -108,7 +108,7 @@ public class ScanTest : MonoBehaviour
                 else
                 {
                     instanceofThingtoSpawn.transform.localScale -= new Vector3(0.01f,0.01f,0.01f); 
-                    if (instanceofThingtoSpawn.transform.localScale.x <= 0.1)
+                    if (instanceofThingtoSpawn.transform.localScale.x <= 0.01)
                     {
                         instanceofThingtoSpawn.transform.localScale = new Vector3(0.01f,0.01f,0.01f);  
                     } 

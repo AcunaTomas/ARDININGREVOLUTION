@@ -418,7 +418,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4538904426354115526}
   - component: {fileID: 3737635557843875688}
-  - component: {fileID: 4636111910824555077}
   m_Layer: 0
   m_Name: f
   m_TagString: Spawnable
@@ -1913,7 +1912,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Burger
+  m_text: Pizza
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 988965eec043db64cb431152ee985b61, type: 2}
   m_sharedMaterial: {fileID: -7366895448668657103, guid: 988965eec043db64cb431152ee985b61,
@@ -2030,6 +2029,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4480471096743466821}
   - component: {fileID: 4572168459933297575}
+  - component: {fileID: 422041727714427179}
   m_Layer: 0
   m_Name: MincedBeef
   m_TagString: Spawnable
@@ -2075,6 +2075,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &422041727714427179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4478396724168759177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c933fe2e2b579aa4d85ba444feeacc68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4597592565488648486
 GameObject:
   m_ObjectHideFlags: 0
@@ -2491,7 +2503,7 @@ Transform:
   m_GameObject: {fileID: 4938160020034729437}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4070050558142089637}
