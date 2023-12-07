@@ -8,6 +8,8 @@ public class ButtonsCOntroller : MonoBehaviour
     [SerializeField]
     private GameObject menu;
 
+
+
     public void PleasOpenTheMenu(bool b)
     {
         menu.SetActive(b);
@@ -21,7 +23,7 @@ public class ButtonsCOntroller : MonoBehaviour
 
     public void PleaseRotate()
     {
-        menu.transform.Rotate(0,1,0, Space.Self);
+        menu.GetComponent<Rotator>().PlasRot();
 
     }
 

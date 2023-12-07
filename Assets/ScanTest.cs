@@ -14,7 +14,7 @@ public class ScanTest : MonoBehaviour
     GameObject thingtospawn;
     Camera ARcam;
     GameObject instanceofThingtoSpawn;
-
+    float staleDist = 0;
 
     void Awake()
     {
@@ -29,6 +29,8 @@ public class ScanTest : MonoBehaviour
     {
         if (Input.touchCount == 0)
             return;
+        
+
 
         RaycastHit hit;
         Ray ray = ARcam.ScreenPointToRay(Input.GetTouch(0).position);
@@ -69,11 +71,33 @@ public class ScanTest : MonoBehaviour
 
         }
 
-        if (Input.GetTouch(0).phase == TouchPhase.Moved )
-        {
-            if(Input.GetTouch(1).phase == TouchPhase.Moved)
+
+
+        if (Input.GetTouch(0).phase == TouchPhase.Moved && Input.GetTouch(1).phase == TouchPhase.Moved )
+        {        
+            if (Input.GetTouch(0).position.y > Input.GetTouch(1).position.y )
             {
-                if (Input.GetTouch(0).deltaPosition.y > 0 && Input.GetTouch(1).deltaPosition.y < 0)
+                if (Input.GetTouch(0).deltaPosition.y > 0)
+                {
+                    instanceofThingtoSpawn.transform.localScale += new Vector3(0.01f,0.01f,0.01f);
+                    if ( instanceofThingtoSpawn.transform.localScale.x >= 3)
+                    {
+                        instanceofThingtoSpawn.transform.localScale = new Vector3(2f,2f,2f); 
+                    } 
+                }
+                else
+                {
+                    instanceofThingtoSpawn.transform.localScale -= new Vector3(0.01f,0.01f,0.01f); 
+                    if (instanceofThingtoSpawn.transform.localScale.x <= 0.1)
+                    {
+                        instanceofThingtoSpawn.transform.localScale = new Vector3(0.01f,0.01f,0.01f);  
+                    } 
+                }
+
+            }
+            else if (Input.GetTouch(0).position.y < Input.GetTouch(1).position.y)
+            {
+                if (Input.GetTouch(1).deltaPosition.y > 0)
                 {
                     instanceofThingtoSpawn.transform.localScale += new Vector3(0.01f,0.01f,0.01f);
                     if ( instanceofThingtoSpawn.transform.localScale.x >= 3)
@@ -90,10 +114,8 @@ public class ScanTest : MonoBehaviour
                     } 
                 }
             }
-
-            
         }
-
+        
 
  
 
