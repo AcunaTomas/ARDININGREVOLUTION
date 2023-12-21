@@ -20,7 +20,7 @@ public class IngredientsToggle : MonoBehaviour
     {
         for (int i = 0; i < Dishes.transform.childCount; i++)
         {
-            if (Dishes.transform.GetChild(i).gameObject.activeSelf == true && Dishes.transform.GetChild(i).GetChild(0).gameObject.activeSelf == false)
+            if (Dishes.transform.GetChild(i).gameObject.activeSelf == true && Dishes.transform.GetChild(i).GetChild(0).gameObject.activeSelf == false && Dishes.transform.GetChild(i).gameObject.tag != "Drinks")
             {
                 Dishes.transform.GetChild(i).GetChild(0).gameObject.SetActive(true);
                 print('a');

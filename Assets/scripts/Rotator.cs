@@ -10,7 +10,7 @@ public class Rotator : MonoBehaviour
     {
         if (canISpin)
         {
-            transform.Rotate(0,0.1f,0, Space.Self);
+            transform.Rotate(0,0.3f,0, Space.Self);
         }    
     }
 

@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 4330135827572319760}
   - component: {fileID: 7874064331461539311}
   - component: {fileID: 9095929332718090477}
+  - component: {fileID: 2153659875971777747}
   m_Layer: 0
   m_Name: Letucce
   m_TagString: Ingredient
@@ -198,7 +199,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Letucce, from a Local farm.\nCO\xB2 Footprint: 95g CO\xB2"
+  m_text: 'Letucce, from a Local farm.
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -270,6 +273,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 7874064331461539311}
   m_maskType: 0
+--- !u!114 &2153659875971777747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118631653326296402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f57a0c5bea456640bf04432236d4481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  co2: 95
+  calories: 19
 --- !u!1 &231063409833673967
 GameObject:
   m_ObjectHideFlags: 0
@@ -282,6 +299,7 @@ GameObject:
   - component: {fileID: 1047061680419185801}
   - component: {fileID: 3123525967148778504}
   - component: {fileID: 6526289995221718075}
+  - component: {fileID: 1905898711580186240}
   m_Layer: 0
   m_Name: Olive Oil
   m_TagString: Ingredient
@@ -372,8 +390,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The olive oil in the pizza is imported from Italy.\nFootprint : 5g CO\xB2\nCalories
-    : 40 kcal"
+  m_text: 'The olive oil in the pizza is imported from Italy.
+
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -458,6 +478,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 2.6109924, z: 1}
   m_Center: {x: 0, y: -0.030258179, z: 0}
+--- !u!114 &1905898711580186240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231063409833673967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f57a0c5bea456640bf04432236d4481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  co2: 5
+  calories: 40
 --- !u!1 &271427367183783060
 GameObject:
   m_ObjectHideFlags: 0
@@ -635,7 +669,7 @@ GameObject:
   - component: {fileID: 201356662593075770}
   m_Layer: 0
   m_Name: Burger
-  m_TagString: Untagged
+  m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -820,6 +854,141 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.2, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1521034345976448609
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7287751500643382501}
+  - component: {fileID: 7250508468027429557}
+  - component: {fileID: 1349861809259101831}
+  m_Layer: 5
+  m_Name: Calor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7287751500643382501
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521034345976448609}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2961509052502510230}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 8.5}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7250508468027429557
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521034345976448609}
+  m_CullTransparentMesh: 1
+--- !u!114 &1349861809259101831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521034345976448609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 16
+  m_fontSizeBase: 16
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -81.51025, y: 87.294365, z: -80.66746, w: -58.346703}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &1672700985061053598
 GameObject:
   m_ObjectHideFlags: 0
@@ -915,6 +1084,7 @@ GameObject:
   - component: {fileID: 8616272294472304457}
   - component: {fileID: 3684837939522674750}
   - component: {fileID: 8415591026915890570}
+  - component: {fileID: 2475312793220021205}
   m_Layer: 0
   m_Name: Burger Bun
   m_TagString: Ingredient
@@ -1091,6 +1261,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 3684837939522674750}
   m_maskType: 0
+--- !u!114 &2475312793220021205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773857462506223624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f57a0c5bea456640bf04432236d4481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  co2: 0
+  calories: 0
 --- !u!1 &1819553716074552403
 GameObject:
   m_ObjectHideFlags: 0
@@ -2374,6 +2558,141 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dishes: {fileID: 0}
   desc: {fileID: 0}
+--- !u!1 &3230075672973189133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1190831288108938448}
+  - component: {fileID: 8863588886708432516}
+  - component: {fileID: 3894937504985180899}
+  m_Layer: 5
+  m_Name: Co2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1190831288108938448
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3230075672973189133}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2961509052502510230}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -10.4}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8863588886708432516
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3230075672973189133}
+  m_CullTransparentMesh: 1
+--- !u!114 &3894937504985180899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3230075672973189133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 16
+  m_fontSizeBase: 16
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -81.51025, y: 87.294365, z: -80.66746, w: -58.346703}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &3297473865599733438
 GameObject:
   m_ObjectHideFlags: 0
@@ -2552,6 +2871,7 @@ GameObject:
   - component: {fileID: 1553546593396105691}
   - component: {fileID: 1731855890818013714}
   - component: {fileID: 8932586099303617796}
+  - component: {fileID: 589342694792523668}
   m_Layer: 0
   m_Name: Onions
   m_TagString: Ingredient
@@ -2655,8 +2975,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The onions in our burgers are sourced from National farms.\nCO\xB2 Footprint:
-    90g CO\xB2\nCalories : 41 kcal"
+  m_text: 'The onions in our burgers are sourced from National farms.
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2728,6 +3049,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1731855890818013714}
   m_maskType: 0
+--- !u!114 &589342694792523668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3402222240008709759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f57a0c5bea456640bf04432236d4481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  co2: 90
+  calories: 41
 --- !u!1 &3443407651684773736
 GameObject:
   m_ObjectHideFlags: 0
@@ -2737,6 +3072,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2630842907429975506}
+  - component: {fileID: 2827096105891486688}
   m_Layer: 0
   m_Name: Soft Drinks
   m_TagString: Drinks
@@ -2775,6 +3111,20 @@ Transform:
   m_Father: {fileID: 4480471096743466821}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2827096105891486688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3443407651684773736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f57a0c5bea456640bf04432236d4481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  co2: 0
+  calories: 0
 --- !u!1 &3757276037160956455
 GameObject:
   m_ObjectHideFlags: 0
@@ -3634,7 +3984,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -81.51025, y: -20.394333, z: -80.66746, w: -58.346703}
+  m_margin: {x: -81.51025, y: -20.394333, z: -80.66746, w: -10.310722}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3651,7 +4001,7 @@ GameObject:
   - component: {fileID: 8310031820495247118}
   m_Layer: 0
   m_Name: Pizza
-  m_TagString: Untagged
+  m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3915,6 +4265,7 @@ GameObject:
   - component: {fileID: 7065537860610557612}
   - component: {fileID: 6953061721544982003}
   - component: {fileID: 8889369307543656815}
+  - component: {fileID: 4702086484642659132}
   m_Layer: 0
   m_Name: Tomatoes
   m_TagString: Ingredient
@@ -4018,8 +4369,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Home made tomato puree using tomatoes from a local farm.\nFootprint :
-    136g CO\xB2\nCalories : 64 kcal"
+  m_text: 'Home made tomato puree using tomatoes from a local farm.
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4091,6 +4443,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 6953061721544982003}
   m_maskType: 0
+--- !u!114 &4702086484642659132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5117792954923645149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f57a0c5bea456640bf04432236d4481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  co2: 136
+  calories: 64
 --- !u!1 &5214316325166588627
 GameObject:
   m_ObjectHideFlags: 0
@@ -4103,6 +4469,7 @@ GameObject:
   - component: {fileID: 8844699282668808207}
   - component: {fileID: 8416414280153327547}
   - component: {fileID: 3989951989703064760}
+  - component: {fileID: 5289254396939270707}
   m_Layer: 0
   m_Name: Ingredients
   m_TagString: Ingredient
@@ -4277,6 +4644,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.22488543, y: 0.12728949, z: 0.61123997}
   m_Center: {x: 0.0169305, y: 0.07107908, z: -0.014159232}
+--- !u!114 &5289254396939270707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5214316325166588627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f57a0c5bea456640bf04432236d4481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  co2: 0
+  calories: 0
 --- !u!1 &5319905383147079607
 GameObject:
   m_ObjectHideFlags: 0
@@ -4553,6 +4934,7 @@ GameObject:
   - component: {fileID: 6091393331554897778}
   - component: {fileID: 1448180744822750722}
   - component: {fileID: 6647731593190027820}
+  - component: {fileID: 3006356332190314739}
   m_Layer: 0
   m_Name: Dough
   m_TagString: Ingredient
@@ -4644,7 +5026,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "The dough of the pizza is home made with baker's yeast flour, olive oil,
-    water and gu\xE9rande salt.\nFootprint : 223g CO\xB2\nCalories : 395 kcal"
+    water and gu\xE9rande salt.\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4729,6 +5111,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3006356332190314739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5476250315963048178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f57a0c5bea456640bf04432236d4481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  co2: 223
+  calories: 395
 --- !u!1 &5786897796751144551
 GameObject:
   m_ObjectHideFlags: 0
@@ -4741,6 +5137,7 @@ GameObject:
   - component: {fileID: 3261807153175597916}
   - component: {fileID: 5492856472453890955}
   - component: {fileID: 8435088688245210620}
+  - component: {fileID: 4658250766868278291}
   m_Layer: 0
   m_Name: cheese
   m_TagString: Ingredient
@@ -4844,8 +5241,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The cheese come from a french farmer with animal-welfare-certified.\nCO\xB2
-    Footprint: 544g CO\xB2\nCalories : 281 kcal"
+  m_text: 'The cheese come from a french farmer with animal-welfare-certified.
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4917,6 +5315,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 5492856472453890955}
   m_maskType: 0
+--- !u!114 &4658250766868278291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5786897796751144551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f57a0c5bea456640bf04432236d4481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  co2: 554
+  calories: 281
 --- !u!1 &5811506404404742848
 GameObject:
   m_ObjectHideFlags: 0
@@ -5465,6 +5877,7 @@ GameObject:
   - component: {fileID: 964475430546970088}
   - component: {fileID: 4147981693677592770}
   - component: {fileID: 6112970695075705116}
+  - component: {fileID: 9066515860681023246}
   m_Layer: 0
   m_Name: Fries
   m_TagString: Ingredient
@@ -5568,7 +5981,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "French fries made with German Potatoes.\nCO\xB2 Footprint: 155g CO\xB2\nCalories: "
+  m_text: 'French fries made with German Potatoes.
+
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5640,6 +6056,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 4147981693677592770}
   m_maskType: 0
+--- !u!114 &9066515860681023246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7199141188014482346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f57a0c5bea456640bf04432236d4481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  co2: 155
+  calories: 100
 --- !u!1 &7449114222201083908
 GameObject:
   m_ObjectHideFlags: 0
@@ -5684,6 +6114,7 @@ GameObject:
   - component: {fileID: 5306214132121465006}
   - component: {fileID: 5818173423326564017}
   - component: {fileID: 8263424276536465291}
+  - component: {fileID: 5895657540434511349}
   m_Layer: 0
   m_Name: Ingredients
   m_TagString: Ingredient
@@ -5722,8 +6153,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.20734185, y: 0.1458353, z: 0.1599613}
-  m_Center: {x: 0.053670853, y: 0.051161587, z: 0.029980626}
+  m_Size: {x: 0.17951517, y: 0.1750624, z: 0.22899532}
+  m_Center: {x: 0.07, y: 0.03, z: 0}
 --- !u!23 &5818173423326564017
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5858,6 +6289,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 5818173423326564017}
   m_maskType: 0
+--- !u!114 &5895657540434511349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7645226101046280838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f57a0c5bea456640bf04432236d4481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  co2: 0
+  calories: 0
 --- !u!1 &7674265882301793426
 GameObject:
   m_ObjectHideFlags: 0
@@ -5954,6 +6399,7 @@ GameObject:
   - component: {fileID: 2922888302603268996}
   - component: {fileID: 1593611296343084509}
   - component: {fileID: 1057019366662926207}
+  - component: {fileID: 2595377722270529947}
   m_Layer: 0
   m_Name: Meat
   m_TagString: Ingredient
@@ -6065,9 +6511,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The meat for our burgers is from french farms which are Animal-Welfare
-    Certified. Special cow steak selection from Charolais farms. Best quality garantie\nCO\xB2
-    Footprint: 2,7Kg CO\xB2\nCalories : 132 kcal"
+  m_text: 'The meat for our burgers is from french farms which are Animal-Welfare
+    Certified. Special cow steak selection from Charolais farms. Best quality guaranteed.
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6152,6 +6599,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.433792, y: 4.259968, z: 6.1578355}
   m_Center: {x: 0.23811033, y: -0.05489719, z: 0.06913765}
+--- !u!114 &2595377722270529947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7674771012645155612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f57a0c5bea456640bf04432236d4481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  co2: 2700
+  calories: 132
 --- !u!1 &7677805736471188347
 GameObject:
   m_ObjectHideFlags: 0
@@ -6311,8 +6772,9 @@ GameObject:
   - component: {fileID: 8858791658661876897}
   - component: {fileID: 4160822505499658340}
   - component: {fileID: 5399592935512471382}
+  - component: {fileID: 8300078570522403361}
   m_Layer: 0
-  m_Name: Ingredient
+  m_Name: Ingredients
   m_TagString: Ingredient
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6327,7 +6789,7 @@ RectTransform:
   m_GameObject: {fileID: 7906538845244763005}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.13379, y: 0.13379, z: 0.13379}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8438545957626116190}
@@ -6349,7 +6811,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.1, y: 0.1, z: 0.1}
+  m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &4160822505499658340
 MeshRenderer:
@@ -6485,6 +6947,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 4160822505499658340}
   m_maskType: 0
+--- !u!114 &8300078570522403361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7906538845244763005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f57a0c5bea456640bf04432236d4481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  co2: 0
+  calories: 0
 --- !u!1 &7953131589453516549
 GameObject:
   m_ObjectHideFlags: 0
@@ -6743,6 +7219,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8849848269315935666}
+  - component: {fileID: 4897339320643757241}
   m_Layer: 0
   m_Name: Nuttella Latte
   m_TagString: Drinks
@@ -6768,6 +7245,20 @@ Transform:
   m_Father: {fileID: 4480471096743466821}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4897339320643757241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8186183684456371976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f57a0c5bea456640bf04432236d4481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  co2: 0
+  calories: 0
 --- !u!1 &8472486607942880853
 GameObject:
   m_ObjectHideFlags: 0
@@ -6780,6 +7271,7 @@ GameObject:
   - component: {fileID: 3386539950377098855}
   - component: {fileID: 2635712243752965940}
   - component: {fileID: 2985165180211588512}
+  - component: {fileID: 4195573977753463783}
   m_Layer: 0
   m_Name: Mozarella Cheese
   m_TagString: Ingredient
@@ -6883,8 +7375,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The buffalo mozarella is imported from a french farm with is animal-welfare-certified.\nFootprint
-    : 466g CO\xB2\nCalories : 256 kcal"
+  m_text: 'The buffalo mozarella is imported from a french farm with is animal-welfare-certified.
+
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6956,6 +7450,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 2635712243752965940}
   m_maskType: 0
+--- !u!114 &4195573977753463783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8472486607942880853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f57a0c5bea456640bf04432236d4481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  co2: 466
+  calories: 256
 --- !u!1 &8650407773700976117
 GameObject:
   m_ObjectHideFlags: 0
@@ -6988,6 +7496,8 @@ RectTransform:
   m_Children:
   - {fileID: 2976248673797251545}
   - {fileID: 7949991328774816497}
+  - {fileID: 1190831288108938448}
+  - {fileID: 7287751500643382501}
   m_Father: {fileID: 8299413165412722620}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7292,6 +7802,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8438545957626116190}
+  - component: {fileID: 8198527028192430984}
   m_Layer: 0
   m_Name: Capuccinno
   m_TagString: Drinks
@@ -7316,6 +7827,20 @@ Transform:
   m_Father: {fileID: 4480471096743466821}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8198527028192430984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9101894119427187428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f57a0c5bea456640bf04432236d4481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  co2: 0
+  calories: 0
 --- !u!1001 &896704090385607282
 PrefabInstance:
   m_ObjectHideFlags: 0

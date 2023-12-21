@@ -57,15 +57,13 @@ public class ScanTest : MonoBehaviour
             {
                 if (Physics.Raycast(ray, out hit))
                 {
+                    print(hit.collider.gameObject.tag);
                     if (hit.collider.gameObject.tag == "Ingredient")
                     {
                         GameObject.Find("Ingredient Interface").GetComponent<IngredientDisplay>().SetText(hit.collider.gameObject);
                         print("Got Here");
                     }
-                    else
-                    {
-                        
-                    }
+
                 }
             }
 
