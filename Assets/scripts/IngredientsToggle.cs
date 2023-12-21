@@ -13,6 +13,7 @@ public class IngredientsToggle : MonoBehaviour
     void Start()
     {
         Dishes = GameObject.Find("MincedBeef");
+        
     }
 
     public void EnableIng()

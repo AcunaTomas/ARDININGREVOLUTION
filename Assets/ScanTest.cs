@@ -79,7 +79,7 @@ public class ScanTest : MonoBehaviour
             {
                 if (Input.GetTouch(0).deltaPosition.y > 0)
                 {
-                    instanceofThingtoSpawn.transform.localScale += new Vector3(0.01f,0.01f,0.01f);
+                    instanceofThingtoSpawn.transform.localScale += new Vector3(0.03f,0.03f,0.03f);
                     if ( instanceofThingtoSpawn.transform.localScale.x >= 3)
                     {
                         instanceofThingtoSpawn.transform.localScale = new Vector3(2f,2f,2f); 
@@ -87,7 +87,7 @@ public class ScanTest : MonoBehaviour
                 }
                 else
                 {
-                    instanceofThingtoSpawn.transform.localScale -= new Vector3(0.01f,0.01f,0.01f); 
+                    instanceofThingtoSpawn.transform.localScale -= new Vector3(0.03f,0.03f,0.03f); 
                     if (instanceofThingtoSpawn.transform.localScale.x <= 0.1)
                     {
                         instanceofThingtoSpawn.transform.localScale = new Vector3(0.01f,0.01f,0.01f);  
@@ -99,7 +99,7 @@ public class ScanTest : MonoBehaviour
             {
                 if (Input.GetTouch(1).deltaPosition.y > 0)
                 {
-                    instanceofThingtoSpawn.transform.localScale += new Vector3(0.01f,0.01f,0.01f);
+                    instanceofThingtoSpawn.transform.localScale += new Vector3(0.03f,0.03f,0.03f);
                     if ( instanceofThingtoSpawn.transform.localScale.x >= 3)
                     {
                         instanceofThingtoSpawn.transform.localScale = new Vector3(2f,2f,2f); 
@@ -107,7 +107,7 @@ public class ScanTest : MonoBehaviour
                 }
                 else
                 {
-                    instanceofThingtoSpawn.transform.localScale -= new Vector3(0.01f,0.01f,0.01f); 
+                    instanceofThingtoSpawn.transform.localScale -= new Vector3(0.03f,0.03f,0.03f); 
                     if (instanceofThingtoSpawn.transform.localScale.x <= 0.01)
                     {
                         instanceofThingtoSpawn.transform.localScale = new Vector3(0.01f,0.01f,0.01f);  
