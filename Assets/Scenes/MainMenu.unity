@@ -370,7 +370,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 435462394}
         m_TargetAssemblyTypeName: BtnMgr, Assembly-CSharp
-        m_MethodName: StartAR
+        m_MethodName: OPENMENU
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

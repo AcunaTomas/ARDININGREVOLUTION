@@ -16,10 +16,15 @@ public class BtnMgr : MonoBehaviour
     {
         
     }
-
+    public void OPENMENU()
+    {
+        SceneManager.LoadScene("DishChooser");
+    }
     public void StartAR()
     {
         SceneManager.LoadScene("BlankAR");
+        ScenePersistentData.frepabname = gameObject.name;
     }
+
 
 }
