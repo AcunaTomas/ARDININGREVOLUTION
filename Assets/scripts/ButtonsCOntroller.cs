@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class ButtonsCOntroller : MonoBehaviour
 {
@@ -25,6 +26,36 @@ public class ButtonsCOntroller : MonoBehaviour
     {
         menu.GetComponent<Rotator>().PlasRot();
 
+    }
+
+    public void OpenTheYTLonk()
+    {
+
+        if(menu.GetComponent<TextMeshProUGUI>().text == "Pizza")
+        {
+            print(ScenePersistentData.url1);
+            Application.OpenURL(ScenePersistentData.url1);
+        }
+        if (menu.GetComponent<TextMeshProUGUI>().text == "Burger")
+        {
+            print(ScenePersistentData.url2);
+            Application.OpenURL(ScenePersistentData.url2);
+        }
+        if(menu.GetComponent<TextMeshProUGUI>().text == "Capuccinno")
+        {
+           print(ScenePersistentData.url3);
+           Application.OpenURL(ScenePersistentData.url3);
+        }
+        if(menu.GetComponent<TextMeshProUGUI>().text == "Nuttella Latte")
+        {
+            print(ScenePersistentData.url4);
+            Application.OpenURL(ScenePersistentData.url4);
+        }
+        if(menu.GetComponent<TextMeshProUGUI>().text == "Soft Drinks")
+        {
+            print(ScenePersistentData.url5);
+            Application.OpenURL(ScenePersistentData.url5);
+        }
     }
 
 }

@@ -25,15 +25,15 @@ public class IngredientDisplay : MonoBehaviour
 
         if (Ing.GetComponent<CalorAndCO2>().co2 <= 400)
         {
-            transform.GetChild(0).GetChild(2).GetComponent<TextMeshProUGUI>().color = new Color32(255,255,255,255);
+            transform.GetChild(0).GetChild(3).GetComponent<TextMeshProUGUI>().color = new Color32(255,255,255,255);
         }
         else if (Ing.GetComponent<CalorAndCO2>().co2 <= 1000)
         {
-            transform.GetChild(0).GetChild(2).GetComponent<TextMeshProUGUI>().color = new Color32(255,255,0,255);
+            transform.GetChild(0).GetChild(3).GetComponent<TextMeshProUGUI>().color = new Color32(255,255,0,255);
         }
         else
         {
-           transform.GetChild(0).GetChild(2).GetComponent<TextMeshProUGUI>().color = new Color32(255,0,0,255); 
+           transform.GetChild(0).GetChild(3).GetComponent<TextMeshProUGUI>().color = new Color32(255,0,0,255); 
         }
         
         transform.GetChild(0).gameObject.SetActive(!transform.GetChild(0).gameObject.activeSelf);

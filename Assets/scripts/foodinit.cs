@@ -16,6 +16,7 @@ public class foodinit : MonoBehaviour
                 if (list.transform.GetChild(i).gameObject.name == ScenePersistentData.frepabname)
                 {
                     list.transform.GetChild(i).gameObject.SetActive(true);
+                    GameObject.Find("Yogurt sample").name = ScenePersistentData.frepabname;
                 }
                 else
                 {

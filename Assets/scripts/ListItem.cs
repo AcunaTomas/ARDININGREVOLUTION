@@ -28,6 +28,8 @@ public class ListItem : MonoBehaviour
             _ARObj.transform.parent.GetChild(i).gameObject.SetActive(false);
         }
         _ARObj.SetActive(true);
+        GameObject.Find("Yogurt sample").GetComponent<TextMeshProUGUI>().text = _ARObj.name;
+        transform.parent.gameObject.SetActive(false);
  
     }
 }
