@@ -19,7 +19,7 @@ public class ButtonsCOntroller : MonoBehaviour
 
     public void BackToMenu()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("DishChooser");
     }
 
     public void PleaseRotate()
