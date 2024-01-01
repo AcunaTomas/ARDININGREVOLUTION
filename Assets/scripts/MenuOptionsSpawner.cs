@@ -11,6 +11,7 @@ public class MenuOptionsSpawner : MonoBehaviour
 
     void Start()
     {
+        _ARObjects = GameObject.Find("MincedBeef");
         for (int i = 0; i < _ARObjects.transform.childCount; i++)
         {
             var a = Instantiate(_Prefab, new Vector3(0,0, 0 ), Quaternion.identity , transform);

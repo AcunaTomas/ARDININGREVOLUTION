@@ -12,6 +12,8 @@ public class ScanTest : MonoBehaviour
     List<ARRaycastHit> m_hits = new List<ARRaycastHit>();
     [SerializeField]
     GameObject thingtospawn;
+    [SerializeField]
+    GameObject thingtospawn2;
     Camera ARcam;
     GameObject instanceofThingtoSpawn;
     float staleDist = 0;
@@ -48,7 +50,6 @@ public class ScanTest : MonoBehaviour
                     {
                         Destroy(GameObject.Find("Canvas"));
                         SpawnPrefab(m_hits[0].pose.position);
-                        
                     }
                     
                 }
@@ -122,5 +123,6 @@ public class ScanTest : MonoBehaviour
     private void SpawnPrefab(Vector3 spawnPosition)
     {
         instanceofThingtoSpawn = Instantiate(thingtospawn, spawnPosition, Quaternion.identity);
+        Instantiate(thingtospawn2, spawnPosition, Quaternion.identity);
     }
 }

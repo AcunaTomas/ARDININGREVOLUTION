@@ -672,6 +672,8 @@ MonoBehaviour:
   m_RaycastManager: {fileID: 1659859602}
   thingtospawn: {fileID: 1237102118036149615, guid: 838bc16812b8cb340b9ac18fcb921134,
     type: 3}
+  thingtospawn2: {fileID: 3435494145490555268, guid: eb5d0aecfb1addd4facfb42ffcf1e1a1,
+    type: 3}
 --- !u!4 &1575748595
 Transform:
   m_ObjectHideFlags: 0
@@ -750,6 +752,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_RaycastManager: {fileID: 0}
   thingtospawn: {fileID: 0}
+  thingtospawn2: {fileID: 0}
 --- !u!114 &1659859602
 MonoBehaviour:
   m_ObjectHideFlags: 0

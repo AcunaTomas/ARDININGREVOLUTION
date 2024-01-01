@@ -24,6 +24,10 @@ public class ButtonsCOntroller : MonoBehaviour
 
     public void PleaseRotate()
     {
+        if (menu == null)
+        {
+            menu = GameObject.Find("MincedBeef");
+        }
         menu.GetComponent<Rotator>().PlasRot();
 
     }
