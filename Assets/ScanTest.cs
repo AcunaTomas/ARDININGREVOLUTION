@@ -58,7 +58,7 @@ public class ScanTest : MonoBehaviour
                     
                 }
             }
-            else if (Input.GetTouch(0).phase == TouchPhase.Began)
+            else if (Input.GetTouch(0).phase == TouchPhase.Began && Input.GetTouch(1).phase == TouchPhase.Began)
             {
                 if (Physics.Raycast(ray, out hit))
                 {
