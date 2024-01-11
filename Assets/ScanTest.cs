@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.XR.ARFoundation;
+using UnityEngine.XR.ARSubsystems;
 using TMPro;
 
 public class ScanTest : MonoBehaviour
@@ -14,6 +15,8 @@ public class ScanTest : MonoBehaviour
     GameObject thingtospawn;
     [SerializeField]
     GameObject thingtospawn2;
+    [SerializeField]
+    GameObject ArPlaneMgr;
     Camera ARcam;
     GameObject instanceofThingtoSpawn;
     float staleDist = 0;
@@ -50,6 +53,7 @@ public class ScanTest : MonoBehaviour
                     {
                         Destroy(GameObject.Find("Canvas"));
                         SpawnPrefab(m_hits[0].pose.position);
+                        ArPlaneMgr.GetComponent<ARPlaneManager>().planePrefab = null;
                     }
                     
                 }

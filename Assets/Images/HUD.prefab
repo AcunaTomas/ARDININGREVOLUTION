@@ -2744,6 +2744,7 @@ GameObject:
   - component: {fileID: 137315561294656608}
   - component: {fileID: 2649564371421731580}
   - component: {fileID: 6841596301233567710}
+  - component: {fileID: 8185564656545806493}
   m_Layer: 5
   m_Name: Yogurt sample
   m_TagString: Untagged
@@ -2869,3 +2870,15 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &8185564656545806493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8833599569372343159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38edacda9e2cf1f438aa4cb7b8a3df81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

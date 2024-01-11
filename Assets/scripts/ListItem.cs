@@ -9,9 +9,10 @@ public class ListItem : MonoBehaviour
 
     [SerializeField]
     private GameObject _ARObj;
+    private GameObject label;
     void Start()
     {
-
+        label = GameObject.Find("Yogurt sample");
     }
 
     public void Init(Transform a)
@@ -19,6 +20,7 @@ public class ListItem : MonoBehaviour
         _ARObj = a.gameObject;
         _sexto = gameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
         _sexto.text = _ARObj.name;
+        label = GameObject.Find("Yogurt sample");
     }
 
     public void SwitchGlish()
@@ -28,7 +30,9 @@ public class ListItem : MonoBehaviour
             _ARObj.transform.parent.GetChild(i).gameObject.SetActive(false);
         }
         _ARObj.SetActive(true);
-        GameObject.Find("Yogurt sample").GetComponent<TextMeshProUGUI>().text = _ARObj.name;
+        print(_ARObj.name);
+        print(label);
+        label.GetComponent<LabelUpdate>().UpdateText(_ARObj.name);
         transform.parent.gameObject.SetActive(false);
  
     }

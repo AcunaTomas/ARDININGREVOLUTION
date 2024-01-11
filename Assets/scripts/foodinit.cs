@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class foodinit : MonoBehaviour
 {
@@ -16,7 +17,8 @@ public class foodinit : MonoBehaviour
                 if (list.transform.GetChild(i).gameObject.name == ScenePersistentData.frepabname)
                 {
                     list.transform.GetChild(i).gameObject.SetActive(true);
-                    GameObject.Find("Yogurt sample").name = ScenePersistentData.frepabname;
+                    print(GameObject.Find("Yogurt sample"));
+                    GameObject.Find("Yogurt sample").GetComponent<LabelUpdate>().UpdateText(ScenePersistentData.frepabname);
                 }
                 else
                 {
