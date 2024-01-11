@@ -15,7 +15,17 @@ public class MenuOptionsSpawner : MonoBehaviour
         for (int i = 0; i < _ARObjects.transform.childCount; i++)
         {
             var a = Instantiate(_Prefab, new Vector3(0,0, 0 ), Quaternion.identity , transform);
-            a.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 30 - 15 * (i+0));
+
+            if (_ARObjects.transform.GetChild(i).gameObject.tag == "Food")
+            {
+                a.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 33 - 15 * (i+0));
+            }
+            else
+            {
+                a.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 16 - 15 * (i+0));
+            }
+
+
             a.GetComponent<ListItem>().Init(_ARObjects.transform.GetChild(i));
         }
     }
