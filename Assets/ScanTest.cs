@@ -48,17 +48,18 @@ public class ScanTest : MonoBehaviour
                     if (hit.collider.gameObject.tag == "Spawnable")
                     {
                         instanceofThingtoSpawn = hit.collider.gameObject;
+                        
                     }
                     else
                     {
                         Destroy(GameObject.Find("Canvas"));
                         SpawnPrefab(m_hits[0].pose.position);
-                        ArPlaneMgr.GetComponent<ARPlaneManager>().planePrefab = null;
+                        ArPlaneMgr.GetComponent<ARPlaneManager>().enabled = false;
                     }
                     
                 }
             }
-            else if (Input.GetTouch(0).phase == TouchPhase.Began && Input.GetTouch(1).phase == TouchPhase.Began)
+            else if (Input.GetTouch(0).phase == TouchPhase.Began && Input.touchCount == 1)
             {
                 if (Physics.Raycast(ray, out hit))
                 {

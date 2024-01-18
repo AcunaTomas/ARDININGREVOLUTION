@@ -18,7 +18,7 @@ public class foodinit : MonoBehaviour
                 {
                     list.transform.GetChild(i).gameObject.SetActive(true);
                     print(GameObject.Find("Yogurt sample"));
-                    GameObject.Find("Yogurt sample").GetComponent<LabelUpdate>().UpdateText(ScenePersistentData.frepabname);
+                    GameObject.Find("Yogurt sample").GetComponent<TextMeshProUGUI>().text = ScenePersistentData.frepabname;
                 }
                 else
                 {
