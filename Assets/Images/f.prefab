@@ -116,7 +116,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Letucce, from a Local farm.
+  m_text: 'Lettuce was originally farmed by the ancient Egyptians, who transformed
+    it from a plant whose seeds were used to obtain oil into an important food crop.
+    This letucce comes from a Local farm.
 
 '
   m_isRightToLeft: 0
@@ -307,7 +309,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The olive oil in the pizza is imported from Italy.
+  m_text: 'Olive oil is a liquid fat obtained by pressing whole olives, the fruit
+    of Olea europaea, a traditional tree crop of the Mediterranean Basin. The olive
+    oil in the pizza is imported from Italy.
 
 
 '
@@ -539,7 +543,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Whole milk sourced from regional farmers.
+  m_text: Ultra-pasteurized whole milk smooth, creamy, and ready-to-go. Whole milk
+    sourced from regional farmers.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -985,8 +990,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "It\u2019s a home made burger with imported flour from France.\nCO\xB2
-    Footprint: 2,7Kg CO\xB2\nCalories : 324 kcal\n"
+  m_text: "It\u2019s a home made burger made from a dough of imported flour from
+    France, milk, yeast and small amounts of sugar and/or butter."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1686,7 +1691,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The onions in our burgers are sourced from National farms.
+  m_text: 'The onions in our burgers are sourced from National farms. These onions
+    are sweet, with many cultivars bred specifically to accentuate this sweetness
 
 '
   m_isRightToLeft: 0
@@ -1938,7 +1944,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A hasel nut based sweet, generally eaten with toast.
+  m_text: A hasel nut based sweet, generally eaten with toast. In Germany the percentage
+    of skim milk was increased from 7.5% to 8.7%, while the sugar content increased
+    from 55.9% to 56.3%
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2433,7 +2441,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Home made tomato puree using tomatoes from a local farm.
+  m_text: 'This tomato species originated in western South America, Mexico, and Central
+    America. Home made tomato puree using tomatoes from a local farm.
 
 '
   m_isRightToLeft: 0
@@ -2659,7 +2668,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "The dough of the pizza is home made with baker's yeast flour, olive oil,
-    water and gu\xE9rande salt.\n\n"
+    water and gu\xE9rande salt.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2874,7 +2883,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The cheese come from a french farmer with animal-welfare-certified.
+  m_text: 'Cheddar cheese  is a natural cheese that is relatively hard, off-white.
+    It originates from the English village of Cheddar in Somerset. The cheese come
+    from a french farmer with animal-welfare-certified.
 
 '
   m_isRightToLeft: 0
@@ -3079,7 +3090,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A bunch of coffee beans, for making the expresso.
+  m_text: A bunch of colombian coffee beans, for making the expresso. Medium-bodied
+    with a rich taste and citrus-like acidity.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3564,7 +3576,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'French fries made with German Potatoes.
+  m_text: 'French fries are prepared by cutting potatoes into even strips, drying
+    them, and frying them, usually in a deep fryer These fries made with German Potatoes.
 
 
 '
@@ -4196,7 +4209,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The sugar is produced locally.
+  m_text: The sugar is produced locally. It is most refined sugar of all, due to
+    its high purity and due to the controlled crystallization process by which crystal
+    sugar is dissolved.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4714,10 +4729,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The buffalo mozarella is imported from a french farm with is animal-welfare-certified.
-
-
-'
+  m_text: Buffalo mozzarella is a mozzarella made from the milk of the Italian Mediterranean
+    buffalo. It is a dairy product traditionally manufactured in Campania, especially
+    in the provinces of Caserta and Salerno.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5119,7 +5133,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A bunch of coffee beans, for brewing the coffee.
+  m_text: A bunch of colombian coffee beans, for brewing the coffee. Medium-bodied
+    with a rich taste and citrus-like acidity.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
