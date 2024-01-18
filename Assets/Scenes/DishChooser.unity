@@ -375,21 +375,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 796145589}
-<<<<<<< Updated upstream
   m_Father: {fileID: 1323759925}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 351.06274, y: 86.14469}
-=======
-  m_Father: {fileID: 1735082498}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 362, y: 217}
->>>>>>> Stashed changes
   m_SizeDelta: {x: 111.19, y: 35.026}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &321429489
@@ -983,21 +974,12 @@ RectTransform:
   m_LocalScale: {x: 1.5530112, y: 1.5530112, z: 1.5530112}
   m_ConstrainProportionsScale: 0
   m_Children: []
-<<<<<<< Updated upstream
   m_Father: {fileID: 1323759925}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -404, y: 380}
-=======
-  m_Father: {fileID: 1735082498}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -394, y: 589}
->>>>>>> Stashed changes
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &606841138
@@ -1022,14 +1004,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Drinks
   m_isRightToLeft: 0
-<<<<<<< Updated upstream
   m_fontAsset: {fileID: 11400000, guid: 82f20a99751127a4eb9ed34ec1cbae74, type: 2}
   m_sharedMaterial: {fileID: 2757551431130480198, guid: 82f20a99751127a4eb9ed34ec1cbae74,
     type: 2}
-=======
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
->>>>>>> Stashed changes
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1133,21 +1110,12 @@ RectTransform:
   m_LocalScale: {x: 1.5530112, y: 1.5530112, z: 1.5530112}
   m_ConstrainProportionsScale: 0
   m_Children: []
-<<<<<<< Updated upstream
   m_Father: {fileID: 1323759925}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 262, y: 380}
-=======
-  m_Father: {fileID: 1735082498}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 273, y: 589}
->>>>>>> Stashed changes
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &640318744
@@ -1172,14 +1140,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Food
   m_isRightToLeft: 0
-<<<<<<< Updated upstream
   m_fontAsset: {fileID: 11400000, guid: 82f20a99751127a4eb9ed34ec1cbae74, type: 2}
   m_sharedMaterial: {fileID: 2757551431130480198, guid: 82f20a99751127a4eb9ed34ec1cbae74,
     type: 2}
-=======
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
->>>>>>> Stashed changes
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1283,21 +1246,12 @@ RectTransform:
   m_LocalScale: {x: 1.5734214, y: 1.5734214, z: 1.5734214}
   m_ConstrainProportionsScale: 0
   m_Children: []
-<<<<<<< Updated upstream
   m_Father: {fileID: 1323759925}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 700}
-=======
-  m_Father: {fileID: 1735082498}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16, y: 832}
->>>>>>> Stashed changes
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &735144398
@@ -1431,21 +1385,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1408672125}
-<<<<<<< Updated upstream
   m_Father: {fileID: 1323759925}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -374, y: -420.85544}
-=======
-  m_Father: {fileID: 1735082498}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -385, y: -290}
->>>>>>> Stashed changes
   m_SizeDelta: {x: 111.19, y: 35.026}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &769244229
@@ -1719,20 +1664,12 @@ RectTransform:
   m_LocalScale: {x: 4.6868076, y: 8.44443, z: 12.500488}
   m_ConstrainProportionsScale: 1
   m_Children: []
-<<<<<<< Updated upstream
   m_Father: {fileID: 1323759925}
-=======
-  m_Father: {fileID: 1735082498}
->>>>>>> Stashed changes
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< Updated upstream
   m_AnchoredPosition: {x: -370, y: -198.0264}
-=======
-  m_AnchoredPosition: {x: -378, y: -67.171}
->>>>>>> Stashed changes
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &797958284
@@ -2092,20 +2029,12 @@ RectTransform:
   m_LocalScale: {x: 4.6868076, y: 8.44443, z: 12.500491}
   m_ConstrainProportionsScale: 0
   m_Children: []
-<<<<<<< Updated upstream
   m_Father: {fileID: 1323759925}
-=======
-  m_Father: {fileID: 1735082498}
->>>>>>> Stashed changes
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< Updated upstream
   m_AnchoredPosition: {x: 351.5734, y: -191.50525}
-=======
-  m_AnchoredPosition: {x: 362.5107, y: -60.649967}
->>>>>>> Stashed changes
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1460661492
@@ -2334,21 +2263,7 @@ RectTransform:
   m_Children:
   - {fileID: 489744740}
   - {fileID: 397232682}
-<<<<<<< Updated upstream
   - {fileID: 1323759925}
-=======
-  - {fileID: 1794513206}
-  - {fileID: 797958283}
-  - {fileID: 1460661491}
-  - {fileID: 735144397}
-  - {fileID: 606841137}
-  - {fileID: 640318743}
-  - {fileID: 1927216314}
-  - {fileID: 1948177329}
-  - {fileID: 769244228}
-  - {fileID: 321429488}
-  - {fileID: 1898049048}
->>>>>>> Stashed changes
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2466,21 +2381,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 604803653}
-<<<<<<< Updated upstream
   m_Father: {fileID: 1323759925}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 351.06274, y: -154.85538}
-=======
-  m_Father: {fileID: 1735082498}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 362, y: -24}
->>>>>>> Stashed changes
   m_SizeDelta: {x: 111.19, y: 35.026}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1898049049
@@ -2622,21 +2528,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 310731023}
-<<<<<<< Updated upstream
   m_Father: {fileID: 1323759925}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -374.00012, y: 86.14469}
-=======
-  m_Father: {fileID: 1735082498}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -385.00003, y: 217}
->>>>>>> Stashed changes
   m_SizeDelta: {x: 111.19, y: 35.026}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1927216315
@@ -2778,21 +2675,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 589232092}
-<<<<<<< Updated upstream
   m_Father: {fileID: 1323759925}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -374, y: -153.85529}
-=======
-  m_Father: {fileID: 1735082498}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -385, y: -22.99997}
->>>>>>> Stashed changes
   m_SizeDelta: {x: 111.19, y: 35.026}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1948177330

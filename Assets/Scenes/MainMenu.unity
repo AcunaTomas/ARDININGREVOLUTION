@@ -730,7 +730,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Argumented dining using AR
+  m_text: Augmented dining using AR
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 82f20a99751127a4eb9ed34ec1cbae74, type: 2}
   m_sharedMaterial: {fileID: 2757551431130480198, guid: 82f20a99751127a4eb9ed34ec1cbae74,
