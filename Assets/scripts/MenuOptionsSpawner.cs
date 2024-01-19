@@ -18,11 +18,11 @@ public class MenuOptionsSpawner : MonoBehaviour
 
             if (_ARObjects.transform.GetChild(i).gameObject.tag == "Food")
             {
-                a.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 33 - 15 * (i+0));
+                a.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 37.5f - 15 * (i+0));
             }
             else
             {
-                a.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 16 - 15 * (i+0));
+                a.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 29 - 15 * (i+0));
             }
 
 

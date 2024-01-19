@@ -424,11 +424,11 @@ GameObject:
   - component: {fileID: 5702777574732973723}
   m_Layer: 0
   m_Name: Sushi
-  m_TagString: Untagged
+  m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5702777574732973723
 Transform:
   m_ObjectHideFlags: 0
@@ -1126,7 +1126,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &25859409529794865
 Transform:
   m_ObjectHideFlags: 0
@@ -3246,7 +3246,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7555141351280144175
 Transform:
   m_ObjectHideFlags: 0
@@ -4816,7 +4816,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4070050558142089637
 Transform:
   m_ObjectHideFlags: 0
@@ -5650,7 +5650,7 @@ GameObject:
   - component: {fileID: 7061011789360898229}
   m_Layer: 0
   m_Name: Sugar
-  m_TagString: Untagged
+  m_TagString: Ingredient
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5837,8 +5837,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f57a0c5bea456640bf04432236d4481, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  co2: 0
-  calories: 0
+  co2: 301
+  calories: 500
 --- !u!1 &8121932022218278297
 GameObject:
   m_ObjectHideFlags: 0

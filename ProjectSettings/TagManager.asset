@@ -8,6 +8,8 @@ TagManager:
   - Ingredient
   - Food
   - Drinks
+  - Plane
+  - IF
   layers:
   - Default
   - TransparentFX

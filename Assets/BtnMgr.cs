@@ -22,6 +22,7 @@ public class BtnMgr : MonoBehaviour
     }
     public void StartAR()
     {
+        print("here");
         SceneManager.LoadScene("BlankAR");
         ScenePersistentData.frepabname = gameObject.name;
     }

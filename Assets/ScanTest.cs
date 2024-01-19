@@ -20,12 +20,12 @@ public class ScanTest : MonoBehaviour
     Camera ARcam;
     GameObject instanceofThingtoSpawn;
     float staleDist = 0;
-
+    int LayerIgnoreRaycast;
     void Awake()
     {
         instanceofThingtoSpawn = null;
         ARcam = GameObject.Find("AR Camera").GetComponent<Camera>();
-
+        LayerIgnoreRaycast =  LayerMask.NameToLayer("Ignore Raycast");
     }
 
 
@@ -34,9 +34,6 @@ public class ScanTest : MonoBehaviour
     {
         if (Input.touchCount == 0)
             return;
-        
-
-
         RaycastHit hit;
         Ray ray = ARcam.ScreenPointToRay(Input.GetTouch(0).position);
         if (m_RaycastManager.Raycast(Input.GetTouch(0).position, m_hits))
@@ -55,6 +52,16 @@ public class ScanTest : MonoBehaviour
                         Destroy(GameObject.Find("Canvas"));
                         SpawnPrefab(m_hits[0].pose.position);
                         ArPlaneMgr.GetComponent<ARPlaneManager>().enabled = false;
+                        GameObject[] a = GameObject.FindGameObjectsWithTag("Plane");
+
+                        foreach (GameObject ca in a )
+                        {
+                            ca.GetComponent<LineRenderer>().enabled = false;
+                            ca.GetComponent<MeshRenderer>().enabled = false;
+                            ca.GetComponent<ARPlaneMeshVisualizer>().enabled = false;
+                            ca.layer = LayerIgnoreRaycast;
+                        }
+
                     }
                     
                 }
@@ -66,7 +73,9 @@ public class ScanTest : MonoBehaviour
                     print(hit.collider.gameObject.tag);
                     if (hit.collider.gameObject.tag == "Ingredient")
                     {
-                        GameObject.Find("Ingredient Interface").GetComponent<IngredientDisplay>().SetText(hit.collider.gameObject);
+                        print("Got Before the find");
+                        print(GameObject.FindWithTag("IF"));
+                        GameObject.FindWithTag("IF").GetComponent<IngredientDisplay>().SetText(hit.collider.gameObject);
                         print("Got Here");
                     }
 
