@@ -19,6 +19,7 @@ public class ScanTest : MonoBehaviour
     GameObject ArPlaneMgr;
     Camera ARcam;
     GameObject instanceofThingtoSpawn;
+    GameObject instanceofThingtoSpawn2;
     float staleDist = 0;
     int LayerIgnoreRaycast;
     void Awake()
@@ -68,7 +69,7 @@ public class ScanTest : MonoBehaviour
             }
             else if (Input.GetTouch(0).phase == TouchPhase.Began && Input.touchCount == 1)
             {
-                if (Physics.Raycast(ray, out hit))
+                if (Physics.Raycast(ray, out hit) && (!instanceofThingtoSpawn2.transform.GetChild(4).gameObject.activeSelf && !instanceofThingtoSpawn2.transform.GetChild(6).gameObject.activeSelf))
                 {
                     print(hit.collider.gameObject.tag);
                     if (hit.collider.gameObject.tag == "Ingredient")
@@ -137,6 +138,6 @@ public class ScanTest : MonoBehaviour
     private void SpawnPrefab(Vector3 spawnPosition)
     {
         instanceofThingtoSpawn = Instantiate(thingtospawn, spawnPosition, Quaternion.identity);
-        Instantiate(thingtospawn2, spawnPosition, Quaternion.identity);
+        instanceofThingtoSpawn2 = Instantiate(thingtospawn2, spawnPosition, Quaternion.identity);
     }
 }
