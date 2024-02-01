@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 41373e1567146f24390c95f0b027013f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Bodoni Moda 72pt
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 602a838c5bb281245ae8d6f58b741311, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
