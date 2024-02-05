@@ -14,9 +14,9 @@ public class OrderMenuLogic : MonoBehaviour
         bool change = true;
         for (int i = 0; i < 4; i++)
         {
-            if (listT.transform.GetChild(i).gameObject.activeSelf || listT.transform.GetChild(i).gameObject.name == a)
+            if (listT.transform.GetChild(i).gameObject.activeSelf || listT.transform.GetChild(i).GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text == a)
             {
-                i = 4;
+
             }
             else
             {
