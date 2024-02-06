@@ -32,7 +32,7 @@ public class ButtonsCOntroller : MonoBehaviour
 
     }
 
-    public void OpenTheYTLonk()
+    public void OpenTheYTLonk() // I should not be doing this.
     {
 
         if(menu.GetComponent<TextMeshProUGUI>().text == "Pizza")
@@ -55,10 +55,25 @@ public class ButtonsCOntroller : MonoBehaviour
             print(ScenePersistentData.url4);
             Application.OpenURL(ScenePersistentData.url4);
         }
-        if(menu.GetComponent<TextMeshProUGUI>().text == "Soft Drinks")
+        if(menu.GetComponent<TextMeshProUGUI>().text == "Sprite")
         {
             print(ScenePersistentData.url5);
             Application.OpenURL(ScenePersistentData.url5);
+        }
+        if(menu.GetComponent<TextMeshProUGUI>().text == "Sushi")
+        {
+            print(ScenePersistentData.url6);
+            Application.OpenURL(ScenePersistentData.url6);
+        }
+        if(menu.GetComponent<TextMeshProUGUI>().text == "Grilled Sandwich")
+        {
+            print(ScenePersistentData.url7);
+            Application.OpenURL(ScenePersistentData.url7);
+        }
+        if(menu.GetComponent<TextMeshProUGUI>().text == "Omelette")
+        {
+            print(ScenePersistentData.url8);
+            Application.OpenURL(ScenePersistentData.url8);
         }
     }
 

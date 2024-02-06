@@ -23,11 +23,11 @@ public class IngredientDisplay : MonoBehaviour
         transform.GetChild(0).GetChild(2).GetComponent<TextMeshProUGUI>().text = "Calories: " + Ing.GetComponent<CalorAndCO2>().calories.ToString() +"g";
         transform.GetChild(0).GetChild(3).GetComponent<TextMeshProUGUI>().text = "Footprint: " + Ing.GetComponent<CalorAndCO2>().co2.ToString() +"CO2";
 
-        if (Ing.GetComponent<CalorAndCO2>().co2 <= 400)
+        if (Ing.GetComponent<CalorAndCO2>().co2 <= 250)
         {
             transform.GetChild(0).GetChild(3).GetComponent<TextMeshProUGUI>().color = new Color32(0,255,0,255);
         }
-        else if (Ing.GetComponent<CalorAndCO2>().co2 <= 1000)
+        else if (Ing.GetComponent<CalorAndCO2>().co2 <= 800)
         {
             transform.GetChild(0).GetChild(3).GetComponent<TextMeshProUGUI>().color = new Color32(255,255,0,255);
         }
@@ -36,6 +36,19 @@ public class IngredientDisplay : MonoBehaviour
            transform.GetChild(0).GetChild(3).GetComponent<TextMeshProUGUI>().color = new Color32(255,0,0,255); 
         }
         
+        if (Ing.GetComponent<CalorAndCO2>().calories <= 400)
+        {
+            transform.GetChild(0).GetChild(2).GetComponent<TextMeshProUGUI>().color = new Color32(0,255,0,255);
+        }
+        else if (Ing.GetComponent<CalorAndCO2>().calories <= 800)
+        {
+            transform.GetChild(0).GetChild(2).GetComponent<TextMeshProUGUI>().color = new Color32(255,255,0,255);
+        }
+        else
+        {
+           transform.GetChild(0).GetChild(2).GetComponent<TextMeshProUGUI>().color = new Color32(255,0,0,255); 
+        }
+
         transform.GetChild(0).gameObject.SetActive(!transform.GetChild(0).gameObject.activeSelf);
 
     }

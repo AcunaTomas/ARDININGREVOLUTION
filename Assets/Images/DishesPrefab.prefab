@@ -664,7 +664,7 @@ GameObject:
   - component: {fileID: 3371194940491052123}
   m_Layer: 0
   m_Name: Marshmellows
-  m_TagString: Untagged
+  m_TagString: Ingredient
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1227,7 +1227,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1452792345295670518
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2018,7 +2018,7 @@ GameObject:
   - component: {fileID: 906220554994194835}
   - component: {fileID: 6991397963494401585}
   m_Layer: 0
-  m_Name: f
+  m_Name: DishesPrefab
   m_TagString: Spawnable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2126,7 +2126,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &25859409529794865
 Transform:
   m_ObjectHideFlags: 0
@@ -2142,7 +2142,7 @@ Transform:
   - {fileID: 101869496709004919}
   - {fileID: 1762274501661654988}
   m_Father: {fileID: 2630842907429975506}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1773857462506223624
 GameObject:
@@ -2747,7 +2747,7 @@ Transform:
   - {fileID: 5690507220371427706}
   - {fileID: 1828522638779379871}
   m_Father: {fileID: 2630842907429975506}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2190358162364685171
 GameObject:
@@ -4535,8 +4535,8 @@ Transform:
   m_LocalScale: {x: 1.3581196, y: 1.3581196, z: 1.3581196}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1190749596898485690}
   - {fileID: 25859409529794865}
+  - {fileID: 1190749596898485690}
   m_Father: {fileID: 4480471096743466821}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5613,7 +5613,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'French fries are prepared by cutting potatoes into even strips, drying
-    them, and frying them, usually in a deep fryer These fries made with German Potatoes.
+    them, and frying them, usually in a deep fryer. These fries were made with German
+    Potatoes.
 
 
 '
@@ -5833,8 +5834,8 @@ GameObject:
   - component: {fileID: 4074774733257804350}
   - component: {fileID: 78259146224339803}
   m_Layer: 0
-  m_Name: egg
-  m_TagString: Untagged
+  m_Name: Eggs
+  m_TagString: Ingredient
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5956,7 +5957,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Egg.
+  m_text: 'The Eggs used in this recipie are cracked and mixed with the other ingredients
+    and stir fried into a tortilla like shape.
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6040,8 +6044,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f57a0c5bea456640bf04432236d4481, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  co2: 0
-  calories: 0
+  co2: 319
+  calories: 168
 --- !u!1 &4842885589665212254
 GameObject:
   m_ObjectHideFlags: 0
@@ -6103,7 +6107,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 15c32fdc8d1bc0d40b6fca23970be873, type: 2}
+  - {fileID: 2100000, guid: e205381bb51232b40aa432101d478034, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7325,7 +7329,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2502721856324223
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8490,11 +8494,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Cheddar cheese  is a natural cheese that is relatively hard, off-white.
-    It originates from the English village of Cheddar in Somerset. The cheese come
-    from a french farmer with animal-welfare-certified.
-
-'
+  m_text: "Cheddar cheese  is a natural cheese that is relatively hard, off-white.
+    It originates from the English village of Cheddar in Somerset. \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8712,7 +8713,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4070050558142089637
 Transform:
   m_ObjectHideFlags: 0
@@ -9131,7 +9132,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'French fries are prepared by cutting potatoes into even strips, drying
-    them, and frying them, usually in a deep fryer These fries made with German Potatoes.
+    them, and frying them, usually in a deep fryer These fries were made with German
+    Potatoes.
 
 
 '
@@ -10337,8 +10339,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'Cheddar cheese  is a natural cheese that is relatively hard, off-white.
-    It originates from the English village of Cheddar in Somerset. The cheese come
-    from a french farmer with animal-welfare-certified.
+    It originates from the English village of Cheddar in Somerset.
 
 '
   m_isRightToLeft: 0

@@ -12,4 +12,6 @@ public static class ScenePersistentData
     public static string url4 = "https://www.youtube.com/watch?v=rBn7zm3JLRA";
     public static string url5 = "https://www.youtube.com/watch?v=h1bdwwE_2lI";
     public static string url6 = "https://www.youtube.com/watch?v=s3ByrfnYjOM";
+    public static string url7 = "https://www.youtube.com/watch?v=hO1xqrfwwVs";
+    public static string url8 = "https://www.youtube.com/watch?v=rutcoSAy2ow";
 }

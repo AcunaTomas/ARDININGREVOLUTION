@@ -69,7 +69,7 @@ public class ScanTest : MonoBehaviour
             }
             else if (Input.GetTouch(0).phase == TouchPhase.Began && Input.touchCount == 1)
             {
-                if (Physics.Raycast(ray, out hit) && (!instanceofThingtoSpawn2.transform.GetChild(4).gameObject.activeSelf && !instanceofThingtoSpawn2.transform.GetChild(6).gameObject.activeSelf))
+                if (Physics.Raycast(ray, out hit) && (!instanceofThingtoSpawn2.transform.GetChild(5).gameObject.activeSelf && !instanceofThingtoSpawn2.transform.GetChild(9).gameObject.activeSelf))
                 {
                     print(hit.collider.gameObject.tag);
                     if (hit.collider.gameObject.tag == "Ingredient")
